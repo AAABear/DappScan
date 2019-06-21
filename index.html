@@ -46,8 +46,8 @@
                         <h2 class="heading">
                             <span>Total DApps</span>
                         </h2>
-                        <p class="value">
-                            123
+                        <p class="value" id="totalDapps">
+                            ---
                         </p>
                     </div>
                 </li>
@@ -56,8 +56,8 @@
                         <h2 class="heading">
                             <span>Daily Acitve Users</span>
                         </h2>
-                        <p class="value">
-                            456
+                        <p class="value" id="dailyUsers">
+                            ---
                         </p>
                     </div>
                 </li>
@@ -66,18 +66,18 @@
                         <h2 class="heading">
                             <span>Daily Transactions</span>
                         </h2>
-                        <p class="value">
-                            200
+                        <p class="value" id="dailyTransactions">
+                            ---
                         </p>
                     </div>
                 </li>
                 <li class="item">
                     <div class="wrapper">
                         <h2 class="heading">
-                            <span>Smart Contracts</span>
+                            <span>Daily Volumes</span>
                         </h2>
-                        <p class="value">
-                            200
+                        <p class="value" id="dailyVolumes">
+                            ---
                         </p>
                     </div>
                 </li>
@@ -88,7 +88,10 @@
 
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
-
+<script src="js/getData.js"></script>
+<script type="text/javascript">
+    window.onload = getDailyInfo();
+</script>
 <script type="text/javascript" color="#6e6e6e" opacity='0.7' zIndex="-2" count="120" src="js/canvas-nest.js"></script>
 
 </body>

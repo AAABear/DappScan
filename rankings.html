@@ -59,14 +59,14 @@
                     </div>
                 </div>
 
-                <div class="ranking-item">
+                <!-- <div class="ranking-item">
                 <div class="flex-body flex-row">
                     <div class="column-flex column-id" data-heading="ID">1</div>
                     <div class="column-flex column-name" title="IDEX">
                         <span>
                             <a href="#">IDEX</a>
                         </span>
-                        <div class="table-additional-data"></div>
+                        <div class="table-additional-data"></div>   
                     </div>
                     <div class="column-flex" data-heading="Balance">
                         <div>
@@ -98,43 +98,43 @@
                 </div>
                 </div>
                 <div class="ranking-item">
-                <div class="flex-body flex-row">
-                    <div class="column-flex column-id" data-heading="ID">2</div>
-                    <div class="column-flex column-name" title="IDEX">
-                        <span>
-                            <a href="#">IDEX</a>
-                        </span>
-                        <div class="table-additional-data"></div>
-                    </div>
-                    <div class="column-flex" data-heading="Balance">
-                        <div>
-                            <span class="icon-ethereum"></span>
-                            <span>49,317.72</span>
+                    <div class="flex-body flex-row">
+                        <div class="column-flex column-id" data-heading="ID">2</div>
+                        <div class="column-flex column-name" title="IDEX">
+                            <span>
+                                <a href="#">IDEX</a>
+                            </span>
+                            <div class="table-additional-data"></div>
                         </div>
-                    </div>
-                    <div class="column-flex" data-heading="Users 24h">
-                        <span>926</span>
-                        <div class="table-additional-data">
-                            <span class="percentage-change minus-change">-4.04%</span>
-                        </div>
-                    </div>
-                    <div class="column-flex" data-heading="Volume 24h">
-                        <div>
-                            <span class="icon-ethereum"></span>
-                            <span>3,641.56</span>
-                            <div class="table-additional-data">
-                                <span class="percentage-change plus-change">+11.27%</span>
+                        <div class="column-flex" data-heading="Balance">
+                            <div>
+                                <span class="icon-ethereum"></span>
+                                <span>49,317.72</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="column-flex" data-heading="Tx 24h">
-                        <div>
-                            <span>6,770</span>
+                        <div class="column-flex" data-heading="Users 24h">
+                            <span>926</span>
+                            <div class="table-additional-data">
+                                <span class="percentage-change minus-change">-4.04%</span>
+                            </div>
                         </div>
+                        <div class="column-flex" data-heading="Volume 24h">
+                            <div>
+                                <span class="icon-ethereum"></span>
+                                <span>3,641.56</span>
+                                <div class="table-additional-data">
+                                    <span class="percentage-change plus-change">+11.27%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-flex" data-heading="Tx 24h">
+                            <div>
+                                <span>6,770</span>
+                            </div>
+                        </div>
+                        
                     </div>
-                    
-                </div>
-                </div>
+                </div> -->
 
                 <div id="rankItem"></div>
             </div>  
@@ -145,7 +145,10 @@
 
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/main.js"></script>
+<script src="js/getData.js"></script>
+<script type="text/javascript">
+    window.onload = getDappList();
+</script>
 <!-- <script type="text/javascript" color="#6e6e6e" opacity='0.7' zIndex="-2" count="120" src="js/canvas-nest.js"></script> -->
 </body>
 </html>
